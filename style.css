@@ -3,7 +3,7 @@ body{
 }
 
 section{
-    margin-bottom: 170px;
+    margin-bottom: 0px;
 }
 
 a{
@@ -11,8 +11,8 @@ a{
     background-image: linear-gradient(yellow, lime);
     padding: 15px 40px;
     border-radius: 20px;
-
 }
+
 
 
 /*order food section*/
@@ -47,8 +47,14 @@ a{
     width: 80%;
 }
 
-/*Contact me section*/
+#order-food{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
 
+
+
+/*Contact me section*/
 #contact-me{
     display: flex;
     padding-left: 10%;
@@ -83,5 +89,48 @@ a{
 #contact-me{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
+}
 
+
+/*My Recepie section*/
+.recipies-text{
+    text-align: center;
+    
+}
+
+.box{
+    display: flex;
+}
+
+.box div{
+    width: 60%;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 20px 20px 80px gray;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.box div img{
+    width: 90%;
+}
+
+/*Footer*/
+footer{
+    background-color: black;
+    text-align: center;
+    margin: none;
+    padding: 20px 0px 20px 0px;
+}
+
+footer span{
+    color: orange;
+}
+
+footer h2{
+    color: grey;
+}
+
+footer p{
+    color: white;
 }
