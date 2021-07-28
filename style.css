@@ -126,6 +126,22 @@ ul li{
     width: 90%;
 }
 
+/*LIKES*/
+
+.likes{
+    display: flex;
+    box-shadow: 20px 20px 80px gray;
+    margin: 0 5% 6% 5%;
+    border-radius: 15px;
+    padding: 3% 0 3% 0;
+}
+
+.likes div{
+    width: 30%;
+    text-align: center;
+
+}
+
 /*Footer*/
 footer{
     background-color: black;
