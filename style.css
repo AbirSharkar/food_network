@@ -1,9 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 section{
-    margin-bottom: 0px;
+    margin-bottom: 150px;
 }
 
 a{
@@ -11,6 +12,16 @@ a{
     background-image: linear-gradient(yellow, lime);
     padding: 15px 40px;
     border-radius: 20px;
+}
+
+/*FOR EXTRA MARKS*/
+ul{
+    display: flex;
+
+}
+
+ul li{
+    margin: 50px;
 }
 
 
