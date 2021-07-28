@@ -1,0 +1,87 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    margin-bottom: 170px;
+}
+
+a{
+    text-decoration: none;
+    background-image: linear-gradient(yellow, lime);
+    padding: 15px 40px;
+    border-radius: 20px;
+
+}
+
+
+/*order food section*/
+#order-food{
+    display: flex;
+    padding-left: 10%;
+}
+
+.order-food-text{
+    padding-top: 150px;
+    text-align: justify;
+}
+
+#order-food h1{
+    font-size: 50px;
+}
+
+#order-food span{
+    color: orange;
+}
+
+#order-food p{
+    margin-bottom: 70px;
+}
+
+
+.half-width-od{
+    width: 50%;
+}
+
+.half-width-od img{
+    width: 80%;
+}
+
+/*Contact me section*/
+
+#contact-me{
+    display: flex;
+    padding-left: 10%;
+}
+
+.contact-me-text{
+    text-align: justify;
+}
+
+#contact-me h2{
+    font-size: 50px;
+}
+
+
+#contact-me p{
+    margin-bottom: 70px;
+}
+
+.half-width-cm{
+    width: 50%;
+}
+
+.half-width-cm img{
+    width: 45%;
+}
+
+.contact-me-text{
+    padding-top: 100px;
+    text-align: justify;
+}
+
+#contact-me{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+
+}
